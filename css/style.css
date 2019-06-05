@@ -33,6 +33,7 @@ header nav.main-menu ul{
 }
 header nav.main-menu li{
     float: left;
+    padding:10px
 
 }
 header nav.main-menu a{
