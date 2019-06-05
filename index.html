@@ -22,22 +22,51 @@
 <body>
 <div class="interior-container">
     <header class="header">
-     <div class="container">
-         <div class="row">
-             <div class="col-md-3 col-sm-12 logo">
-                 <img src="img/logo.png" alt="logo">
-             </div>
-             <nav class="col-md-9 main-menu">
-                 <ul>
-                     <li><a href="#">Home</a></li>
-                     <li><a href="#">About</a></li>
-                     <li><a href="#">serviece</a></li>
-                     <li><a href="#">Blog</a></li>
-                     <li><a href="#">Contact</a><i class="fa fa-angle-down" aria-hidden="true"></i></li>
-                 </ul>
-             </nav>
-         </div>
-     </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 " id="menu-top">
+                    <nav class="navbar navbar-expand-lg navbar-light main-menu">
+                        <a class="navbar-brand" href="#">
+                            <img src="img/logo.png" alt="logo">
+                        </a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav ml-auto">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Service</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Blog</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Contact</i>
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="#">Action</a>
+                                        <a class="dropdown-item" href="#">Another action</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" href="#">Something else here</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
     </header>
     <div class="banner">
         <h1>We Are Love <span>Interior</span> Design</h1>
